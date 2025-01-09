@@ -123,3 +123,169 @@ nav ul li a:hover {
     line-height: 1;
     color: #ffffff;
 }
+
+/* Section COMPÉTENCES */
+.skills {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+    color: #636970;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.skills-description {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #555;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-left, .skills-right {
+    flex: 1;
+}
+
+.skill p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.progress {
+    background: #636970;
+    height: 100%;
+}
+
+.skills-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #4a4a4a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    transform: scale(1.1); /* Zoom de 10% */
+    background-color: #333; /* Changement de couleur au survol */
+    cursor: pointer;
+}
+
+/* Section Portfolio */
+.portfolio {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+    color: #002855;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.portfolio-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    flex: 1 1 300px;
+    text-align: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #002855;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #333;
+    padding: 0 1rem 1rem;
+}
+
+/* Navigation indicateurs */
+.portfolio-navigation {
+    margin-top: 1.5rem;
+}
+
+.portfolio-navigation .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.portfolio-navigation .dot:hover {
+    background-color: #002855;
+}
